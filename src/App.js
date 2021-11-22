@@ -1,7 +1,9 @@
 
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Container from './components/layout/Container';
+import Footer from './components/layout/Footer';
 import Navbar from './components/layout/Navbar';
+import Post from './components/layout/Post';
 import Contact from './components/pages/Contact';
 import Gallery from './components/pages/Gallery';
 import Home from './components/pages/Home';
@@ -20,9 +22,9 @@ function App() {
             <Route exact path="/contact" element = {<Contact/>}/>
           </Routes>
         </Container>
-          
+        <Post/>  
         
-
+      <Footer></Footer>
     </BrowserRouter>
     </div>
   )
