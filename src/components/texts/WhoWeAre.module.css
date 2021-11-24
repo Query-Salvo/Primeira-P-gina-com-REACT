@@ -1,0 +1,24 @@
+
+.principal {
+    display: flex;
+    content: auto;
+    width: 50%;
+    height: 80%;
+    margin-left: 0;
+    margin-bottom: 60px;
+    
+    
+}
+
+
+
+.principal h1 {
+    font-weight:normal;
+    font-size: 3em;
+    text-align: center;
+}
+
+.principal p {
+    
+    padding-left: 20px;
+}

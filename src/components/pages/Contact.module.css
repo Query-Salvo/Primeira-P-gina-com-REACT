@@ -1,0 +1,19 @@
+.content {
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    width: 80%;
+    position: relative
+
+}
+
+.content h1 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+
+
+
+
+

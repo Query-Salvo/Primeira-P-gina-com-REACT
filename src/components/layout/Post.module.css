@@ -47,6 +47,8 @@
 .title {
     font-size: 2em;
     font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .description {

@@ -1,0 +1,40 @@
+.principal {
+    
+    
+    width: 500px;
+}
+
+.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    
+}
+
+.form_control label {
+    margin-bottom: .6em;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.form_control input {
+    padding: .7em;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: grey;
+    
+}
+
+.form_control input::placeholder {
+    color: #7b7b7b;
+    font-weight: lighter;
+}
+.box_text {
+    border-radius: 5px;
+
+    font-size: 1.5em;
+    
+    color: grey;
+    padding-left: 10px;
+}

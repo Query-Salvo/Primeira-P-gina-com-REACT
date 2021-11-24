@@ -1,0 +1,29 @@
+.social_list {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.social_list li {
+    margin: 0 1em;
+}
+
+.social_list li:hover {
+    color: #BD1616;
+}
+
+.social_list svg{
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.title {
+    margin-left: 30px ;
+}
+
+.title h1 {
+    text-align: center;
+    margin-left: 10px ;
+    margin-bottom: 10%;
+    
+}
