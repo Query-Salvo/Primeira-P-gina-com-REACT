@@ -1,15 +1,28 @@
-import Post from "../layout/Post"
+import styles from './Home.module.css'
+import Post1 from "../posts/Post1"
+import Post2 from "../posts/Post2"
+import Post3 from '../posts/Post3'
+import Post4 from '../posts/Post4'
+import Post5 from '../posts/Post5'
+import Post6 from '../posts/Post6'
+
 
 function Home () {
     return (
-        <did>
-            <h1> Nossos últimos trabalhos: </h1>
-            <section>
-                <Post title="Hands" image="https://i.pinimg.com/564x/80/d0/c0/80d0c0c91c20715e0645a517808a78ec.jpg" />
-                <Post title="Maestro de Cocina" image="https://i.pinimg.com/564x/51/fc/bf/51fcbf639523770ea79feef44c41b772.jpg"/>
+        <div className={styles.principal}>
+            <h1 className={styles.title}> Nossos últimos trabalhos: </h1>
+
+            <div className={styles.posts}> 
+                <Post1/>
+                <Post2/>
+                <Post3/>
+                <Post4/>
+                <Post5/>
+                <Post6/>
                 
-            </section>
-        </did>
+            </div>
+            
+        </div>
     )
 }
 

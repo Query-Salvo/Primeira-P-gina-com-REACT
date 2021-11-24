@@ -11,8 +11,6 @@ import Home from './components/pages/Home';
 function App() {
   return (
     <div>
-    <h1>Olá</h1>
-    <p>Olá mundo olá mundo</p>
     <BrowserRouter>
         <Navbar/>
         <Container>
@@ -22,10 +20,11 @@ function App() {
             <Route exact path="/contact" element = {<Contact/>}/>
           </Routes>
         </Container>
-        <Post/>  
+         
         
       <Footer></Footer>
     </BrowserRouter>
+    
     </div>
   )
 }
