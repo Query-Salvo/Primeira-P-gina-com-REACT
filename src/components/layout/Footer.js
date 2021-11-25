@@ -17,7 +17,7 @@ function Footer () {
                     <FaPinterestSquare/>
                 </li>
             </ul>
-            <p className={styles.copy_right}><span>Costs</span>&copy; 2021 Thiago Pacheco Faria</p> 
+            <p className={styles.copy_right}><span>Viel</span>&copy; 2021 Thiago Pacheco Faria</p> 
         </footer>
     )
 }
